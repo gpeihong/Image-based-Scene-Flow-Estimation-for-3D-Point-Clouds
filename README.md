@@ -1,4 +1,4 @@
-# IImage-based-Scene-Flow-Estimation-for-3D-Point-Clouds
+# Image-based-Scene-Flow-Estimation-for-3D-Point-Clouds
 Project in DUT Media Lab
 
 ## Abstract
