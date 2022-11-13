@@ -60,4 +60,21 @@ Lineset of the point cloud projected to the interior of the image plane:
 
 ![image](https://user-images.githubusercontent.com/95701078/201511826-f02e476e-80e0-4560-a5c3-ea3f736c5cb2.png)
 
+The visualization of the optical flow is based on the Munsell color wheel for display. The space of the Munsell color system is roughly in a cylindrical shape, as shown in Figure 4.12. The north-south axis = value, from black to white. Longitude = hue. divides the circle equally into five primary colors and five intermediate colors: red (R), red-yellow (YR), yellow (Y), yellow-green (GY), green (G), green-blue (BG), blue (B), blue-purple (PB), purple (P), and purple-red (RP). The portion between two adjacent positions is then divided equally into 10 parts, for a total of 100 parts. Distance from the axis = chroma, which indicates the purity of the hue. Its value increases from the middle (0) outward with the purity of the hue, and there is no theoretical upper limit. The specific color is expressed in the form: hue + value + chroma.
+
+Munsell Color System:
+
+![image](https://user-images.githubusercontent.com/95701078/201511867-965b276c-8d96-448c-91bd-f3601fbcb3eb.png)
+
+Visualization results of the scene flow(multiple perspectives):
+
+![image](https://user-images.githubusercontent.com/95701078/201511887-f497e9b1-0c43-420a-8aea-e164231799dd.png)
+
+![image](https://user-images.githubusercontent.com/95701078/201511895-9defacdd-8944-4367-b247-87b7882efc43.png)
+
+![image](https://user-images.githubusercontent.com/95701078/201511901-ad210315-acb6-4c1c-b4d6-f06f14bc665e.png)
+
+## Future work
+In this work, scene flow and optical flow estimation have been studied in depth and significant results have been achieved. But this does not mean that their accuracy is comparable to that of end-to-end deep learning methods. Because this experiment is based on ICP registration, it can be preliminarily concluded that the accuracy of scene flow prediction is relatively high, but this experiment should be improved in the future. Subsequently, the lineset vector should be mapped to a two-dimensional vector in the plane according to the projection matrix, and this two-dimensional vector should be compared with the optical flow vector of the corresponding pixel calculated by FlowNet using, for example, cosine similarity, and its accuracy should be counted by quantitative means to guide the subsequent optimization work.
+
 
