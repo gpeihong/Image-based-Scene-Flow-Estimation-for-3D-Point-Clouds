@@ -28,3 +28,12 @@ Output color coded flow field：
 
 ![image](https://user-images.githubusercontent.com/95701078/201511077-b8f0c197-c372-4a7b-8c03-5464d23b2378.png)
 
+## Fusion of sensors
+Sensor setup[39]：
+
+![image](https://user-images.githubusercontent.com/95701078/201511620-491be2b7-c231-4a7f-900c-c8c90297692f.png)
+Object coordinates[39]:
+
+![image](https://user-images.githubusercontent.com/95701078/201511646-0fa7e2cc-f87a-4626-bc94-7a82fc0150e2.png)
+
+
