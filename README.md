@@ -32,8 +32,15 @@ Output color coded flow field：
 Sensor setup[39]：
 
 ![image](https://user-images.githubusercontent.com/95701078/201511620-491be2b7-c231-4a7f-900c-c8c90297692f.png)
+
 Object coordinates[39]:
 
 ![image](https://user-images.githubusercontent.com/95701078/201511646-0fa7e2cc-f87a-4626-bc94-7a82fc0150e2.png)
+
+The transformation relation is shown as follows:
+
+![image](https://user-images.githubusercontent.com/95701078/201511714-f0e515fd-5a2b-4355-9396-7526fa02b678.png)
+
+where Tr_velo_to_cam * X is the projection of point X in Velodyne point cloud coordinates into the camera 00 (reference camera) coordinate system. R_rect00 *Tr_velo_to_cam * X is the projection of the point X in Velodyne coordinates into the camera 00 (reference camera) coordinate system, and the image coplanar alignment correction based on the reference camera 00, which is necessary for 3D projection using the KITTI dataset. P_rect_00 * R_rect00 * Tr_velo_to_cam * X is to project the point X in Velodyne coordinates into the camera 00 (reference camera) coordinate system, then perform the image co-alignment correction, and then project it into the pixel coordinate system of camera xx.
 
 
