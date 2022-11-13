@@ -40,6 +40,15 @@ Object coordinates[39]:
 The transformation relation is shown as follows:
 
 ![image](https://user-images.githubusercontent.com/95701078/201511714-f0e515fd-5a2b-4355-9396-7526fa02b678.png)
-where Tr_velo_to_cam * X is the projection of point X in Velodyne point cloud coordinates into the camera 00 (reference camera) coordinate system. R_rect00 *Tr_velo_to_cam * X is the projection of the point X in Velodyne coordinates into the camera 00 (reference camera) coordinate system, and the image coplanar alignment correction based on the reference camera 00, which is necessary for 3D projection using the KITTI dataset. P_rect_00 * R_rect00 * Tr_velo_to_cam * X is to project the point X in Velodyne coordinates into the camera 00 (reference camera) coordinate system, then perform the image co-alignment correction, and then project it into the pixel coordinate system of camera xx.
+
+Where Tr_velo_to_cam * X is the projection of point X in Velodyne point cloud coordinates into the camera 00 (reference camera) coordinate system. R_rect00 *Tr_velo_to_cam * X is the projection of the point X in Velodyne coordinates into the camera 00 (reference camera) coordinate system, and the image coplanar alignment correction based on the reference camera 00, which is necessary for 3D projection using the KITTI dataset. P_rect_00 * R_rect00 * Tr_velo_to_cam * X is to project the point X in Velodyne coordinates into the camera 00 (reference camera) coordinate system, then perform the image co-alignment correction, and then project it into the pixel coordinate system of camera xx.
+
+Point cloud P1 after removing points outside the image plane:
+
+![image](https://user-images.githubusercontent.com/95701078/201511753-40d7d508-6958-4d38-9260-4ad5d683aa3d.png)
+
+Projection of P1 to image P after removal of some points:
+
+![image](https://user-images.githubusercontent.com/95701078/201511769-8a237994-c1dc-4f52-baa4-b25482dbef42.png)
 
 
