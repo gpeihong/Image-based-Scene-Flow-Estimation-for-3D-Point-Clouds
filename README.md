@@ -14,8 +14,10 @@ Two datasets, MPI Sintel and Flying Chairs are used. MPI Sintel data formats inc
 
 After the model training, the test is executed on the MPI Sintel dataset using the currently trained model with an EPE of 1.485, similar to the test results in the original paper. Figure 3.8 shows the test visualization results, and Figure 3.9 shows its corresponding ground truth.
 Testing results in MPI Sintel：
+
 ![image](https://user-images.githubusercontent.com/95701078/201510971-9e89b1ec-fa4e-4ac5-9d08-ad48271715fc.png)
 MPI Sintel Ground Truth：
+
 ![image](https://user-images.githubusercontent.com/95701078/201510981-f210c96c-8d93-4f10-9320-7dc233bdb07b.png)
 ### Optical flow estimation of Kitti Road：
 Input image pair
