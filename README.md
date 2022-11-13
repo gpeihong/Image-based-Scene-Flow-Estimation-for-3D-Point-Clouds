@@ -77,3 +77,7 @@ Visualization results of the scene flow(multiple perspectives):
 ## Future work
 In this work, scene flow and optical flow estimation have been studied in depth and significant results have been achieved. But this does not mean that their accuracy is comparable to that of end-to-end deep learning methods. Because this experiment is based on ICP registration, it can be preliminarily concluded that the accuracy of scene flow prediction is relatively high, but this experiment should be improved in the future. Subsequently, the lineset vector should be mapped to a two-dimensional vector in the plane according to the projection matrix, and this two-dimensional vector should be compared with the optical flow vector of the corresponding pixel calculated by FlowNet using, for example, cosine similarity, and its accuracy should be counted by quantitative means to guide the subsequent optimization work.
 
+
+### Reference
+[2] Dosovitskiy A, Fischer P, Ilg E, et al. Flownet: Learning optical flow with convolutional networks[C]//Proceedings of the IEEE international conference on computer vision. 2015: 2758-2766.
+[39] Geiger A, Lenz P, Stiller C, et al. Vision meets robotics: The kitti dataset[J]. The International Journal of Robotics Research, 2013, 32(11): 1231-1237.
