@@ -51,4 +51,13 @@ Projection of P1 to image P after removal of some points:
 
 ![image](https://user-images.githubusercontent.com/95701078/201511769-8a237994-c1dc-4f52-baa4-b25482dbef42.png)
 
+## Approximate estimation and visualization of scene flow
+Iterative Closest Point(ICP):
+Point cloud before registration:
+![image](https://user-images.githubusercontent.com/95701078/201511819-82e18cc4-7552-4a20-a90f-b9861399a10d.png)
+
+Lineset of the point cloud projected to the interior of the image plane:
+
+![image](https://user-images.githubusercontent.com/95701078/201511826-f02e476e-80e0-4560-a5c3-ea3f736c5cb2.png)
+
 
