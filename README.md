@@ -13,9 +13,7 @@ Two datasets, MPI Sintel and Flying Chairs are used. MPI Sintel data formats inc
 
 Testing results in MPI Sintel：
 
-<div align=center>
-![image](https://user-images.githubusercontent.com/95701078/201511189-9136eeb0-847c-40b4-bf96-bbb1c5928686.png)
-</div>
+<div align=center>![image](https://user-images.githubusercontent.com/95701078/201511189-9136eeb0-847c-40b4-bf96-bbb1c5928686.png)</div>
 
 MPI Sintel Ground Truth：
 
